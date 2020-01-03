@@ -10,9 +10,9 @@
       <meta property="og:image" content="IMg_6011.jpg">
       <meta property="og:description" content="This is my portfolio page,check it out and let me know what you think!">
       <meta property="og:site_name" content="Kelly Jeffery"/>
-
-
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+      <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>
+      <script scr="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.js"type=""></script>
 
       <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu&display=swap" rel="stylesheet">
 
@@ -20,11 +20,12 @@
     <%= csrf_meta_tags %>
     <%= action_cable_meta_tag %>
     <%= stylesheet_link_tag 'application', media: 'all' %>
-    <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+    <%= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
   </head>
   <body>
     <%= yield %>
     <%= javascript_include_tag 'application' %>
     <%= javascript_pack_tag 'application' %>
+
   </body>
 </html>
