@@ -11,10 +11,9 @@
       <meta property="og:description" content="This is my portfolio page,check it out and let me know what you think!">
       <meta property="og:site_name" content="Kelly Jeffery"/>
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
-      <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>
-      <script scr="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.js"type=""></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
-      <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu&display=swap" rel="stylesheet"/></script>
 
 
     <%= csrf_meta_tags %>
@@ -26,6 +25,108 @@
     <%= yield %>
     <%= javascript_include_tag 'application' %>
     <%= javascript_pack_tag 'application' %>
+
+     <div class="button_option">
+      <a href="" class="trigger-action">Animate</a>
+      <a href="" class="trigger-rev">Revert</a>
+     </div>
+
+     <div class="pen-label">KELLY JEFFERY
+      <p class="pen-tag">FULL-STACK WEB DEVELOPER</p>
+      <p class="trigger-an">Invert</p>
+     </div>
+
+     <div class="cont">
+      <div class="rRect-default"></div>
+      <div class="rRect-yell"></div>
+      <div class="rRect-mar"></div>
+      <div class="rRect-next"></div>
+     </div>
+
+     <script>
+
+       $(document).ready(function(){
+        $(".action").click(function(){
+
+        $('.cont').animate({"width":"0%"},600,'ease OutCirc');
+        $('.cont').animate({
+          "opacity":"1"
+
+        },900);
+
+        $('.pen-label').fadeIn(1000);
+        $('.rRect').animate({
+          "width" : "25%",
+          "box-shadow" : "0 0 20px gray"
+
+        }, 1000, 'easeInOutCirc');
+        $('.pen-label').animate({
+          "color" : "white"
+        },1000);
+
+        });
+
+      starter();
+      function starter(){
+
+
+        $('.cont').animate({
+          "opacity":"1"
+
+        },900);
+
+        $('.pen-label').fadeIn(1000);
+        $('.rRect').animate({
+          "width" : "25%",
+          "box-shadow" : "0 0 20px gray"
+
+        }, 1000, 'easeInOutCirc');
+        $('.pen-label').animate({
+          "color" : "white"
+        },1000);
+
+      }
+
+      $(".rev").click(function(){
+
+        $('.pen-label').fadeIn(1000);
+        $('.rRect').animate({
+          "width" : "25%",
+          "box-shadow" : "0"
+
+        }, 1000, 'easeInOutCirc');
+        $('.pen-label').animate({
+          "color" : "gray"
+        },1000);
+
+      });
+
+      $('.trigger-an').click(function(){
+        $(".rRect").animate({
+          "-webkit-transform" : "skew(200deg)"
+        },500);
+
+
+        $(".rRec").animate({
+          "transform" : "skew(200deg)"
+
+        },500);
+
+        $('.rRect').css({
+          "transform": "skew(200deg)"
+          });
+
+      });
+    });
+ </script>
+
+ <script scr="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.js"type=""></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script scr="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+
+
 
   </body>
 </html>

@@ -1,0 +1,204 @@
+<div class="button_option">
+    <a href="" class="trigger-action">Animate</a>
+    <a href="" class="trigger-rev">Revert</a>
+  </div>
+
+  <div class="pen-label">AMAZING HERO
+    <p class="pen-tag">KELLY JEFFERY</p>
+    <p class="trigger-an">Invert</p>
+  </div>
+
+  <div class="cont">
+    <div class="rRect-default"></div>
+    <div class="rRect-yell"></div>
+    <div class="rRect-mar"></div>
+    <div class="rRect-next"></div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>
+  <script scr="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.js"type=""></script>
+
+$(document).ready(function(){
+      $(".action").click(function(){
+
+        $('.cont').animate({"width":"0%"},600,'ease OutCirc');
+        $('.cont').animate({
+          "opacity":"1"
+
+        },900);
+
+        $('.pen-label').fadeIn(1000);
+        $('.rRect').animate({
+          "width" : "25%",
+          "box-shadow" : "0 0 20px gray"
+
+        }, 1000, 'easeInOutCirc');
+        $('.pen-label').animate({
+          "color" : "white"
+        },1000);
+
+        });
+
+      starter();
+      function starter(){
+
+
+        $('.cont').animate({
+          "opacity":"1"
+
+        },900);
+
+        $('.pen-label').fadeIn(1000);
+        $('.rRect').animate({
+          "width" : "25%",
+          "box-shadow" : "0 0 20px gray"
+
+        }, 1000, 'easeInOutCirc');
+        $('.pen-label').animate({
+          "color" : "white"
+        },1000);
+
+      }
+
+      $(".rev").click(function(){
+
+        $('.pen-label').fadeIn(1000);
+        $('.rRect').animate({
+          "width" : "25%",
+          "box-shadow" : "0"
+
+        }, 1000, 'easeInOutCirc');
+        $('.pen-label').animate({
+          "color" : "gray"
+        },1000);
+
+      });
+
+      $('.trigger-an').click(function(){
+        $(".rRect").animate({
+          "-webkit-transform" : "skew(200deg)"
+        },500);
+
+
+        $(".rRec").animate({
+          "transform" : "skew(200deg)"
+
+        },500);
+
+        $('.rRect').css({
+          "transform": "skew(200deg)"
+
+        });
+
+      });
+    });
+    .pen-label{
+  font-family: tahoma;
+  font-weight: 700;
+  font-size: 9vh;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 40vh;
+  left: 0;
+  color: gray;
+  right: 0;
+  width: 100%;
+  text-align: center;
+}
+.buttons_options{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.pen-tag{
+  font-size: 3vh;
+  font-weight: 700;
+  letter-spacing: 2vh;
+  text-align: center;
+}
+.trigger-an{
+  background: none;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+  padding: 8px 10px;
+  border: 2px solid white;
+  font-family: tahoma;
+  text-transform: uppercase;
+  border-radius: 80px;
+}
+
+.trigger-action{
+  cursor: pointer;
+  position: fixed;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+  padding: 8px 10px;
+  background: none;
+  color: gray;
+  font-size: 14px;
+  border: 2px solid gray;
+  font-family: tahoma;
+  text-transform: uppercase;
+  border-radius: 80px;
+
+}
+.trigger-action:hover{
+  background: rgba(0,0,0,0.5);
+  color: white;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.trigger-rev{
+  position: fixed;
+  margin-left: 100px;
+  margin-top: 10px;
+  padding: 8px 10px;
+  background: none;
+  color: gray;
+  font-size: 14px;
+  border: 2px solid gray;
+  font-family: tahoma;
+  text-transform: uppercase;
+  border-radius: 80px;
+}
+
+.trigger-rev:hover{
+  background: rgba(0,0,0,0.5);
+  color: white;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.cont{
+  display: flex;
+  width: 160%;
+  position: absolute;
+  margin-left: -25%;
+  z-index: -2;
+  opacity: 0;
+}
+
+.rRect{
+  width: 0%;
+  height: 100vh;
+  transform: skew(-40deg);
+}
+
+.rRect-yell{
+  background: #f33a3d;
+}
+
+.rRect-mar{
+  background: #26abae;
+}
+
+.rRect-default{
+  background: #2c2d31;
+}
+
+.rRect-next{
+  background: #f2a334;
+}
