@@ -1,134 +1,82 @@
 body {
-  font-family: 'Prata', serif;
+  font-family: tahoma;
   overflow: hidden;
   background: white;
+  color: gray;
 }
-.pen-label{
+
+.banner{
+  position: absolute;
+  color: gray;
+  width: 100%;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  height: 900px;
+  width: 1200px
+}
+
+h1{
   font-family: tahoma;
   font-weight: 700;
   font-size: 9vh;
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  top: 40vh;
-  left: 0;
-  color: gray;
-  right: 0;
-  width: 100%;
   text-align: center;
+  margin-top: 140px;
 }
-.buttons_options{
-  margin-left: 20px;
-  margin-top: 10px;
-}
-.pen-tag{
+
+h2{
   font-size: 3vh;
   font-weight: 700;
   letter-spacing: 2vh;
   text-align: center;
-}
-.trigger-an{
-  background: none;
-  cursor: pointer;
-  color: white;
-  font-size: 14px;
-  padding: 8px 10px;
-  border: 2px solid white;
-  font-family: tahoma;
-  text-transform: uppercase;
-  border-radius: 80px;
+  margin-bottom: 20px;
 }
 
-.trigger-action{
-  cursor: pointer;
-  position: fixed;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-top: 10px;
-  padding: 8px 10px;
-  background: none;
-  color: gray;
-  font-size: 14px;
-  border: 2px solid gray;
-  font-family: tahoma;
-  text-transform: uppercase;
-  border-radius: 80px;
 
-}
-.trigger-action:hover{
-  background: rgba(0,0,0,0.5);
-  color: white;
-  transition: all 0.3s;
-  text-decoration: none;
-}
+.about-btn{
 
-.trigger-rev{
-  position: fixed;
-  margin-left: 100px;
-  margin-top: 10px;
-  padding: 8px 10px;
-  background: none;
-  color: gray;
-  font-size: 14px;
-  border: 2px solid gray;
-  font-family: tahoma;
-  text-transform: uppercase;
-  border-radius: 80px;
-}
-
-.trigger-rev:hover{
-  background: rgba(0,0,0,0.5);
-  color: white;
-  transition: all 0.3s;
-  text-decoration: none;
-}
-
-.cont{
-  display: flex;
-  width: 160%;
   position: absolute;
-  margin-left: -25%;
-  z-index: -2;
-  opacity: 0;
+  margin-left: 5px;
+  margin-right: 120px;
+  margin-top: 10px;
+  padding: 10px 12px;
+  background: none;
+  color: gray;
+  font-size: 18px;
+  border: 2px solid gray;
+  font-family: tahoma;
+  text-transform: uppercase;
+  border-radius: 80px;
+  z-index: 7;
+
+}
+.about-btn:hover{
+  background: rgba(0,0,0,0.5);
+  color: white;
+  transition: all 0.3s;
+  text-decoration: none;
 }
 
-.rRect{
-  width: 0%;
-  height: 100vh;
-  transform: skew(-40deg);
+.contact-btn{
+  position: absolute;
+  margin-left: 130px;
+  margin-top: 10px;
+  padding: 10px 12px;
+  background: none;
+  color: gray;
+  font-size: 18px;
+  border: 2px solid gray;
+  font-family: tahoma;
+  text-transform: uppercase;
+  border-radius: 80px;
+  z-index: 20;
 }
 
-.rRect-yell{
-  background: #f33a3d;
-}
-
-.rRect-mar{
-  background: #26abae;
-}
-
-.rRect-default{
-  background: #2c2d31;
-}
-
-.rRect-next{
-  background: #f2a334;
-}
-
-// .banner {
-
-//  display: flex;
-//  justify-content: center;
-//  background-size: cover;
-//  align-items: center;
-//  height: 300px;
-//  background-color: #F4F4F;
-// }
-
-h1{
-  color: black;
-  font-size: 150px;
-  font-family: 'Prata', serif;
-
+.contact-btn:hover{
+  background: rgba(0,0,0,0.5);
+  color: white;
+  transition: all 0.3s;
+  text-decoration: none;
 }
 
 .line-seporator {
@@ -138,6 +86,42 @@ h1{
   border: solid 2px;
   width: 1200px;
 
+}
+
+.card-1{
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  width: 600px;
+  background-color: #F4F7F6;
+  padding: 30px;
+  height: 500px;
+  margin-top: 400px;
+  position: absolute
+}
+
+.text-container{
+  width: 300px;
+  margin-left: 115px;
+  margin-top: 50px;
+  font-family: tahoma;
+}
+
+.about-text{
+  font-family: tahoma;
+  letter-spacing: 1px;
+  color: gray;
 
 }
+// .card-2{
+//   background-size: cover;
+//   background-position: center;
+//   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+//   width: 600px;
+//   background-color: #F4F7F6;
+//   padding: 30px;
+//   height: 500px;
+//   margin-top: 400px;
+//   margin-left: 600px;
+//   position: absolute
+// }
+
 // Specific CSS for your home-page
