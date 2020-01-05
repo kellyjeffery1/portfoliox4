@@ -1,76 +1,49 @@
 //= require rails-ujs
 //= require_tree .
-$(document).ready(function(){
-      $(".action").click(function(){
+// $(document).ready(function() {
+// Wrap every letter in a span
+// main heading
+var textWrapper = document.querySelector('.ml6 .letters');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-        $('.cont').animate({"width":"0%"},600,'ease OutCirc');
-        $('.cont').animate({
-          "opacity":"1"
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml6 .letter',
+    translateY: ["1.1em", 0],
+    translateZ: 0,
+    duration: 750,
+    delay: (el, i) => 50 * i
+  }).add({
+    targets: '.ml6',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+  // main heading
 
-        },900);
+  // all h2
+  // Wrap every letter in a span
+var textWrapper = document.querySelector('.ml12');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-        $('.pen-label').fadeIn(1000);
-        $('.rRect').animate({
-          "width" : "25%",
-          "box-shadow" : "0 0 20px gray"
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml12 .letter',
+    translateX: [40,0],
+    translateZ: 0,
+    opacity: [0,1],
+    easing: "easeOutExpo",
+    duration: 1200,
+    delay: (el, i) => 500 + 30 * i
+  }).add({
+    targets: '.ml12 .letter',
+    translateX: [0,-30],
+    opacity: [1,0],
+    easing: "easeInExpo",
+    duration: 1100,
+    delay: (el, i) => 100 + 30 * i
+  });
+  // all h2
+// });
 
-        }, 1000, 'easeInOutCirc');
-        $('.pen-label').animate({
-          "color" : "white"
-        },1000);
-
-        });
-
-      starter();
-      function starter(){
-
-
-        $('.cont').animate({
-          "opacity":"1"
-
-        },900);
-
-        $('.pen-label').fadeIn(1000);
-        $('.rRect').animate({
-          "width" : "25%",
-          "box-shadow" : "0 0 20px gray"
-
-        }, 1000, 'easeInOutCirc');
-        $('.pen-label').animate({
-          "color" : "white"
-        },1000);
-
-      }
-
-      $(".rev").click(function(){
-
-        $('.pen-label').fadeIn(1000);
-        $('.rRect').animate({
-          "width" : "25%",
-          "box-shadow" : "0"
-
-        }, 1000, 'easeInOutCirc');
-        $('.pen-label').animate({
-          "color" : "gray"
-        },1000);
-
-      });
-
-      $('.trigger-an').click(function(){
-        $(".rRect").animate({
-          "-webkit-transform" : "skew(200deg)"
-        },500);
-
-
-        $(".rRec").animate({
-          "transform" : "skew(200deg)"
-
-        },500);
-
-        $('.rRect').css({
-          "transform": "skew(200deg)"
-
-        });
-
-      });
-    });

@@ -1,6 +1,5 @@
 body {
   font-family: tahoma;
-  overflow: hidden;
   background: white;
   color: gray;
 }
@@ -9,40 +8,50 @@ body {
   position: absolute;
   color: gray;
   width: 100%;
-  text-align: center;
+
   background-size: cover;
   background-position: center;
-  height: 900px;
-  width: 1200px
+  height: 998px;
+
 }
 
 h1{
   font-family: tahoma;
   font-weight: 700;
-  font-size: 9vh;
+  font-size: 7vh;
   text-align: center;
   margin-top: 140px;
+  letter-spacing: 1vh;
 }
 
 h2{
-  font-size: 3vh;
+  font-size: 2vh;
   font-weight: 700;
   letter-spacing: 2vh;
   text-align: center;
   margin-bottom: 20px;
 }
 
+h3{
+  font-size: 2vh;
+  font-weight: 700;
+  letter-spacing: 1vh;
+}
+p{
+  font-family: tahoma;
+}
+
 
 .about-btn{
 
   position: absolute;
-  margin-left: 5px;
-  margin-right: 120px;
+  margin-left: 40px;
+  margin-right: 160px;
   margin-top: 10px;
-  padding: 10px 12px;
+  padding: 15px 17px;
   background: none;
   color: gray;
-  font-size: 18px;
+  font-size: 24px;
   border: 2px solid gray;
   font-family: tahoma;
   text-transform: uppercase;
@@ -59,12 +68,12 @@ h2{
 
 .contact-btn{
   position: absolute;
-  margin-left: 130px;
+  margin-left: 200px;
   margin-top: 10px;
-  padding: 10px 12px;
+  padding: 15px 17px;
   background: none;
   color: gray;
-  font-size: 18px;
+  font-size: 24px;
   border: 2px solid gray;
   font-family: tahoma;
   text-transform: uppercase;
@@ -79,49 +88,191 @@ h2{
   text-decoration: none;
 }
 
-.line-seporator {
-  display: flex;
-  min-height: 1px;
-  color: black;
-  border: solid 2px;
-  width: 1200px;
+.card-2 {
+    background-size: cover;
+    background-position: center;
+    width: 900px;
+    height: 700px;
+    margin-top: 997px;
+    margin-left: 906px;
+    position: absolute;
+}
+
+ .container-1{
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    width: 1050px;
+    background-color: #FCEAF8;
+    height: 450px;
+    margin-top: 173px;
+    margin-left: 390px;
+    position: absolute;
+ }
+
+.image{
+  margin-left: 46px;
+  margin-top: 65px;
+  border-radius: 10px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.info-card-1 {
+    margin-left: 290px;
+    margin-top: -302px;
+    opacity: 0.7;
+}
+
+.text-container-2 {
+    width: 300px;
+    margin-left: 671px;
+    margin-top: -365px;
+    font-family: tahoma;
+}
+
+.card-3{
+  width: 900px;
+  height: 700px;
+  background-color: #FCEAF8;
+  margin-top: 998px;
+  margin-left: 5px;
+  position: absolute;
 
 }
 
-.card-1{
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
-  width: 600px;
-  background-color: #F4F7F6;
-  padding: 30px;
-  height: 500px;
-  margin-top: 400px;
-  position: absolute
+.bookmark-text{
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  margin-left: 200px;
+  margin-top: 200px
 }
 
-.text-container{
-  width: 300px;
-  margin-left: 115px;
-  margin-top: 50px;
-  font-family: tahoma;
+.bookmark-heading{
+  font-size: 30px;
 }
 
-.about-text{
-  font-family: tahoma;
-  letter-spacing: 1px;
+.bookmark-image{
+   margin-left: 100px;
+   margin-top: 200px;
+}
+
+.card-4{
+  width: 900px;
+  height: 700px;
+  background-color: #FCEAF8;
+  margin-top: 1700px;
+  margin-left: 906px;
+  position: absolute;
+
+}
+.airbaby-text{
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  margin-left: 220px;
+  margin-top: 220px
+}
+.airbaby-heading{
+  font-size: 30px;
+}
+
+.airbaby-image{
+  margin-left: 100px;
+  margin-top: 200px;
+}
+
+.card-5{
+  width: 900px;
+  height: 700px;
+  margin-top: 1700px;
+  margin-left: 5px;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+
+}
+
+.card-6{
+  width: 900px;
+  height: 700px;
+  background-color: #FCEAF8;
+  margin-top: 2400px;
+  margin-left: 5px;
+  position: absolute;
+}
+
+.card-7{
+    background-size: cover;
+    background-position: center;
+    width: 900px;
+    height: 700px;
+    margin-top: 2400px;
+    margin-left: 906px;
+    position: absolute;
+}
+.mistercocktail-text{
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  margin-left: 220px;
+  margin-top: 220px
+}
+.mistercocktail-heading{
+  font-size: 30px;
+}
+.footer{
+  position: absolute;
   color: gray;
+  width: 100%;
+  margin-top: 3100px;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
 
 }
-// .card-2{
-//   background-size: cover;
-//   background-position: center;
-//   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
-//   width: 600px;
-//   background-color: #F4F7F6;
-//   padding: 30px;
-//   height: 500px;
-//   margin-top: 400px;
-//   margin-left: 600px;
-//   position: absolute
-// }
+.icon-grey {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    font-size: 40px;
+    border-radius: 5px;
+    margin: 40px auto;
+}
+
+.icon-grey:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.ml6 {
+  position: relative;
+  font-weight: 900;
+  font-size: 3.3em;
+}
+
+.ml6 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml6 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+.ml12 {
+  font-weight: 700;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+
+.ml12 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
 
 // Specific CSS for your home-page

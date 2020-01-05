@@ -10,22 +10,108 @@
      </div>
 
     <div class="banner" style="background-image: url(https://images.unsplash.com/photo-1503455637927-730bce8583c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80);">
-      <h1>KELLY JEFFERY</h1>
+      <h1 class="ml6">
+      <span class="text-wrapper">
+      <span class="letters">KELLY JEFFERY</span>
+      </span>
+      </h1>
       <h2>FULL-STACK WEB DEVELOPER</h2>
       <div class="container-1">
-        <div class='card-1'>
-          <div class="text-container">
-            <h2 class="about-text">About me</h2>
-            <p>I am a full-stack web developer looking to continue an exciting and challenging journey in the tech industry. Having been the 5x international open water swimmer champion of the Algarve and with 5+ years working in hospitality across England and Australia, I’ve become extremely determined, disciplined and driven. I’m ready to transfer those qualities into my tech career and continue to learn from others around me.</p>
+        <div class='image'>
+            <%= image_tag("batch_319-15.jpg", {:style => "height:300px;" "width:200px;"}) %>
+        </div>
+        <div class='info-card-1'>
+          <div class="text-container-1">
+            <div class="about-text">
+              <h3>About</h3>
+              <p > - I am a full-stack web developer<br>
+      looking to continue an exciting and challenging<br>
+      journey in the tech industry.<p>
+            </div>
+            <div class="skills-text">
+              <h3>skills</h3>
+              <ul>
+                <li>Ruby on Rails</li>
+                <li>Relational databases, SQL, Postgres</li>
+                <li>ES6 Javascript</li>
+                <li>Test driven development</li>
+                <li>APIs. JSON, scraping</li>
+                <li>HTML, CSS\SCSS, Boostrap</li>
+                <li>Wireframes, prototyping, UI design</li>
+                <li>Git, Github, technical workflow</li>
+              </ul>
+            </div>
           </div>
         </div>
+        <div class="text-container-2">
+          <h3>Achievments</h3>
+          <p>- Graduate of leWagon,<br>-5x international open water champion of the Algarve,<br>-Traveled and worked all around austrailia.</p>
+        </div>
+
       </div>
     </div>
 
+ <div class="card-2" style="background-image: url(https://images.unsplash.com/photo-1558979142-19e920d27587?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2734&q=80);">
+   <div class="bookmark-image">
+   <%= image_tag("new-bookmark-logo.png", {:style => "height:300px;" "width:600px;"}) %>
+   </div>
+ </div>
+
+<div class='card-3'>
+  <div class='bookmark-text'>
+    <h2 class="ml12 bookmark-heading">Bookmark</h2>
+    <p>Bookmark, an app where you find recommendations and opinions from the people you trust. The app built with Ruby on Rails, HTML, SCSS, Ajax, Active Record, JavaScript, Cloudinary focused on movie recommendations but can grow to include other media types. Presented in front of 200+ people at the Barbican Center.</p>
+  </div>
+</div>
+
+<div class="card-4">
+  <div class="airbaby-text">
+    <h2 class="ml12 airbaby-heading">AirBaby</h2>
+    <p>AirBaby,A market place targeted at money savvy young parents who can buy and sell baby clothes built with Ruby on Rails, Active Record, Ajax, Map-box, Geocoding, and Cloudinary . Designed the front-end using Figma. Collaborated through Github and deployed using Heroku. On AirBaby they were able to rent clothes, and also put clothes up to rent. Presented in front of 40+ people at the bootcamp.</p>
+  </div>
+</div>
+
+<div class="card-5" style="background-image: url(https://images.unsplash.com/photo-1568322714751-f4f5f5f9dd7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80);">
+  <div class="airbaby-image">
+    <%= image_tag("airbaby.png", {:style => "height:300px;" "width:600px;"}) %>
+  </div>
+</div>
+
+<div class="card-6">
+  <div class="mistercocktail-text">
+    <h2 class="ml12 mistercock-heading">Mister Cocktail</h2>
+    <p>An app where users can list and create a cocktails, and view and discover new recipes, while also leaving reviews of their favourite cocktails. Built using Ruby on Rails, using Cloudinary package to enable users to upload photos.</p>
+  </div>
+</div>
+
+<div class="card-7" style="background-image: url(https://images.unsplash.com/photo-1523380360198-653413ad178b?ixlib=rb-1.2.1&auto=format&fit=crop&w=2734&q=80);">
+  <div class="cocktail-image">
+    <%= image_tag("", {:style => "height:300px;" "width:600px;"}) %>
+  </div>
+</div>
+
+<footer class="footer" style="background-image: url(https://images.unsplash.com/photo-1503455637927-730bce8583c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80);">
+  <div class="links">
+    <h2 class= "subheader">Follow me🙋‍♀️</h2>
+    <ul>
+      <li><a href="github.com"target ="_blank" class="icon-grey">
+        <i class="fab fa-github-alt" class="icon-grey"></i>
+      </a>
+      </li>
+      <li>
+        <a href='http://twitter.com/' target ="_blank" class="icon-grey">
+          <i class="fab fa-twitter-square"></i>
+        </a>
+      </li>
+      <li><a href='http://instagram.com/' target ="_blank" class="icon-grey"><i class="fab fa-instagram"></i></a></li>
+    </ul>
+  </div>
+
+</footer>
 
 
 
-    <!-- <nav class="navbar navbar-light bg-light">
+<!--  <nav class="navbar navbar-light bg-light">
       <a class="navbar-brand">Full-Stack developer </a>
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">About me</button>
         </form>
@@ -43,14 +129,15 @@
    <!-- banner -->
 
 
-
-
-
+<!-- <script src="js/scrollmagic/uncompressed/ScrollMagic.js"></script>
+<script src="js/scrollmagic/minified/ScrollMagic.min.js"></script>
+<script src="js/scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
+ -->
    <!-- image conatiner -->
 
 
 
   </div>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 </body>
 </html>
