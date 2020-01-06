@@ -24,26 +24,68 @@ anime.timeline({loop: true})
 
   // all h2
   // Wrap every letter in a span
-var textWrapper = document.querySelector('.ml12');
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+// var textWrapper = document.querySelector('.ml12');
+// textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-anime.timeline({loop: true})
-  .add({
-    targets: '.ml12 .letter',
-    translateX: [40,0],
-    translateZ: 0,
-    opacity: [0,1],
-    easing: "easeOutExpo",
-    duration: 1200,
-    delay: (el, i) => 500 + 30 * i
-  }).add({
-    targets: '.ml12 .letter',
-    translateX: [0,-30],
-    opacity: [1,0],
-    easing: "easeInExpo",
-    duration: 1100,
-    delay: (el, i) => 100 + 30 * i
-  });
-  // all h2
+// anime.timeline({loop: true})
+//   .add({
+//     targets: '.ml12 .letter',
+//     translateX: [40,0],
+//     translateZ: 0,
+//     opacity: [0,1],
+//     easing: "easeOutExpo",
+//     duration: 1200,
+//     delay: (el, i) => 500 + 30 * i
+//   }).add({
+//     targets: '.ml12 .letter',
+//     translateX: [0,-30],
+//     opacity: [1,0],
+//     easing: "easeInExpo",
+//     duration: 1100,
+//     delay: (el, i) => 100 + 30 * i
+//   });
+
 // });
 
+// // Wrap every letter in a span
+// var textWrapper = document.querySelector('.ml16');
+// textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+// anime.timeline({loop: true})
+//   .add({
+//     targets: '.ml16 .letter',
+//     translateY: [-100,0],
+//     easing: "easeOutExpo",
+//     duration: 1400,
+//     delay: (el, i) => 30 * i
+//   }).add({
+//     targets: '.ml16',
+//     opacity: 0,
+//     duration: 1000,
+//     easing: "easeOutExpo",
+//     delay: 1000
+// scroll
+
+$(document).ready(function(){
+
+var controller= new ScrollMagic.Controller();
+
+// build a sence
+
+var ourScene = new ScrollMagic.Scene({
+  triggerElement: '#project01'
+
+})
+  .setClassToggle('#project01', 'fade-in')
+  .addIndicators({
+    name: 'fade scene',
+    colorTrigger: 'black',
+    indent: 200,
+    colorStart: "#75C695"
+  })
+  .addTo(controller);
+
+});
+
+
+// scroll

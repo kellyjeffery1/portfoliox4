@@ -105,7 +105,7 @@ p{
     background-color: #FCEAF8;
     height: 450px;
     margin-top: 173px;
-    margin-left: 390px;
+    margin-left: 368px;
     position: absolute;
  }
 
@@ -239,6 +239,7 @@ img {
     font-size: 40px;
     border-radius: 5px;
     margin: 40px auto;
+    text-decoration: none;
 }
 
 .icon-grey:hover {
@@ -274,5 +275,66 @@ img {
   display: inline-block;
   line-height: 1em;
 }
+.ml16 {
+  color: #402d2d;
+  padding: 40px 0;
+  font-weight: 800;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  overflow: hidden;
+}
+
+.ml16 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+// project 1
+
+.project {
+    padding: 200px 0;
+    border-bottom: 1px #ebebeb solid;
+    opacity: 0;
+    transform: translateY(70px);
+    transition: all 1s ease-out;
+}
+.project.fade-in{
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+    /* =General */
+
+    /* =Header */
+
+    /* =Footer */
+}
+
+@media only screen and (min-width: 768px) {
+    /* =General */
+
+    /* =Header */
+
+    /* =Footer */
+}
+
+@media only screen and (min-width: 1140px) {
+    /* =General */
+
+    /* =Header */
+
+    /* =Footer */
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
 
 // Specific CSS for your home-page
