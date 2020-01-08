@@ -206,9 +206,99 @@ $(document).ready(function(){
 <div class="card-2" style="background-image: url(https://images.unsplash.com/photo-1515704089429-fd06e6668458?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80);"></div>
 
 
+class='image'>
+          <%= image_tag("batch_319-15.jpg", {:style => "height:300px;" "width:200px;"}) %>
+        </div>
+                   <h3>About</h3>
+              <p > - I am a full-stack web developer<br>
+      looking to continue an exciting and challenging<br>
+      journey in the tech industry.<p>
+            </div>
+      <div class="skills-text">
+        <h3>skills</h3>
+          <ul>
+            <li>Ruby on Rails</li>
+            <li>Relational databases, SQL, Postgres</li>
+            <li>ES6 Javascript</li>
+            <li>Test driven development</li>
+            <li>APIs. JSON, scraping</li>
+            <li>HTML, CSS\SCSS, Boostrap</li>
+            <li>Wireframes, prototyping, UI design</li>
+            <li>Git, Github, technical workflow</li>
+          </ul>
+          </div
 
+          <div class='info-card-1'>
+          <div class="text-container-1">
+            <div class="about-text">
+      </div>
+        <div class="text-container-2">
+          <h3>Achievments</h3>
+          <p>- Graduate of leWagon,<br>-5x international open water champion of the Algarve,<br>-Traveled and worked all around austrailia.</p>
+        </div>
+      </div>
+    </div>
 
+<div id="1strow-container">
+    <div class="card-2">
+      <div id="project01" class="project">
+        <div class="bookmark-image">
+          <%= image_tag("new-bookmark-logo.png", {:style => "height:300px;" "width:600px;"}) %>
+        </div>
+      </div>
+    </div>
 
+    <div class='card-3'>
+      <div id="project01" class="project">
+        <div class='bookmark-text'>
+          <h2 class="ml12 bookmark-heading">Bookmark</h2>
+          <p>Bookmark, an app where you find recommendations and opinions from the people you trust. The app built with Ruby on Rails, HTML, SCSS, Ajax, Active Record, JavaScript, Cloudinary focused on movie recommendations but can grow to include other media types. Presented in front of 200+ people at the Barbican Center.</p>
+          <%= link_to "more", more_path %>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+div class="2ndrow-container">
+    <div class="card-4">
+      <div id="project02" class="project">
+        <div class="airbaby-text">
+          <h2 class="airbaby-heading">AirBaby</h2>
+          <p>AirBaby,A market place targeted at money savvy young parents who can buy and sell baby clothes built with Ruby on Rails, Active Record, Ajax, Map-box, Geocoding, and Cloudinary . Designed the front-end using Figma. Collaborated through Github and deployed using Heroku. On AirBaby they were able to rent clothes, and also put clothes up to rent. Presented in front of 40+ people at the bootcamp.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-5">
+     <div id="project02" class="project">
+        <div class="airbaby-image">
+          <%= image_tag("airbaby.png", {:style => "height:300px;" "width:600px;"}) %>
+        </div>
+     </div>
+    </div>
+  </div>
+<!-- 2nd row -->
+
+<!-- 3rd row -->
+<div class=3rdrow-conatiner>
+  <div class="card-6">
+    <div id="project03" class="project">
+      <div class="mistercocktail-text">
+        <h2 class="ml12 mistercock-heading">Mister Cocktail</h2>
+        <p>An app where users can list and create a cocktails, and view and discover new recipes, while also leaving reviews of their favourite cocktails. Built using Ruby on Rails, using Cloudinary package to enable users to upload photos.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-7">
+    <div id="project03" class="project">
+      <div class="cocktail-image">
+        <%= image_tag("cocktail.jpg", {:style => "height:250px;" "width:250px;"}) %>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 

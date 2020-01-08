@@ -98,7 +98,7 @@ $(document).ready(function(){
   var pinIntroScene = new ScrollMagic.Scene({
     triggerElement: '#intro',
     triggerHook: 0,
-    duration: '40%'
+    duration: '60%'
   })
   .setPin('#intro')
   .addTo(controller);
@@ -110,19 +110,6 @@ $(document).ready(function(){
   })
   .setPin('#intro', {pushFollowers: false})
   .addTo(controller);
-
-//   // ----------------------------
-
-// var pinIntroScene3 = new ScrollMagic.Scene({
-//     triggerElement: '#project02',
-//     triggerHook: 0.4
-//   })
-//   .setPin('#intro', {pushFollowers: false})
-//   .addTo(controller);
-// //----------------------------------------
-
-
-
 
   // loop through each .project element
   $('.project').each(function(){
@@ -201,17 +188,20 @@ anime.timeline({loop: true})
 
 
 
+$('.click').click(function(e){
+   // prevent default action
+   e.preventDefault();
 
+   // get id of target div (placed in href attribute of anchor element)
+   // and pass it to the scrollToElement function
+    // also, use 2000 as an argument for the scroll speed (2 seconds, 2000 milliseconds)
+   scrollToElement( $(this).attr('href'), 2000 );
+});
 
-
-
-
-
-
-
-
-
-
-
-
+var scrollToElement = function(el, ms){
+    var speed = (ms) ? ms : 600;
+    $('html,body').animate({
+        scrollTop: $(el).offset().top
+    }, speed);
+}
 

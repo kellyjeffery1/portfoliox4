@@ -1,13 +1,14 @@
 body {
-  font-family: tahoma;
+  font-family: 'Bree Serif', serif;
   background: white;
   color: gray;
-
 }
+
 .ml4 {
   position: relative;
-  font-weight: 900;
-  font-size: 4.5em;
+  font-weight: 500;
+  font-size: 3em;
+  margin-left: 40px
 }
 .ml4 .letters {
   position: absolute;
@@ -33,7 +34,27 @@ h1{
 
   font-weight: 100;
   font-size: 20px;
+  font-family: 'Bree Serif', serif;
   // text-align: center;
+  // margin-top: 200px;
+  letter-spacing: 2px;
+}
+.projects-heading{
+  font-weight: 100;
+  font-size: 10vh;
+  font-family: 'Bree Serif', serif;
+  text-align: center;
+  margin-top: 100px;
+  // margin-top: 200px;
+  letter-spacing: 2px;
+}
+
+.about-me{
+  font-weight: 100;
+  font-size: 10vh;
+  font-family: 'Bree Serif', serif;
+  text-align: center;
+  margin-top: 100px;
   // margin-top: 200px;
   letter-spacing: 2px;
 }
@@ -41,9 +62,26 @@ h1{
 h2{
   font-size: 3vh;
   font-weight: 700;
-  letter-spacing: 2vh;
-  text-align: center;
-  margin-bottom: 20px;
+  letter-spacing: 1vh;
+  // text-align: center;
+  // margin-bottom: 20px;
+}
+.bookmark-title{
+  margin: 20px;
+  margin-left: 200px;
+  margin-top: 100px;
+  font-family: 'Bree Serif', serif;
+  font-weight: 700;
+  font-size: 4vh;
+}
+
+.airbaby-title{
+  margin: 20px;
+  margin-left: 200px;
+  margin-top: 100px;
+  font-family: 'Bree Serif', serif;
+  font-weight: 700;
+  font-size: 4vh;
 }
 
 h3{
@@ -59,7 +97,7 @@ p{
 .about-btn{
 
   position: absolute;
-  margin-left: 40px;
+  margin-left: 1400px;
   margin-right: 160px;
   margin-top: 10px;
   padding: 15px 17px;
@@ -67,7 +105,7 @@ p{
   color: gray;
   font-size: 24px;
   border: 2px solid gray;
-  font-family: tahoma;
+  font-family: 'Bree Serif', serif;
   text-transform: uppercase;
   border-radius: 80px;
   z-index: 7;
@@ -82,14 +120,14 @@ p{
 
 .contact-btn{
   position: absolute;
-  margin-left: 200px;
+  margin-left: 1600px;
   margin-top: 10px;
   padding: 15px 17px;
   background: none;
   color: gray;
   font-size: 24px;
   border: 2px solid gray;
-  font-family: tahoma;
+  font-family: 'Bree Serif', serif;
   text-transform: uppercase;
   border-radius: 80px;
   z-index: 20;
@@ -102,207 +140,67 @@ p{
   text-decoration: none;
 }
 
-.card-2 {
-    background-size: cover;
-    background-position: center;
-    width: 900px;
-    height: 700px;
+.line-seperator{
+  height: 1px;
+  width: 1400px;
+  background: linear-gradient(130.62deg, #717070 9.56%, #EEE5E5 94.35%);
+  margin-left: 200px;
+}
+.line-seperator-airbaby{
+  height: 1px;
+  width: 1400px;
+  background: linear-gradient(130.62deg, #717070 9.56%, #EEE5E5 94.35%);
+  margin-left: 200px;
+}
+
+.project-container-1{
+   background-color: #E5D6D5;
+    width: 100%;
+    height: 1700px;
     margin-top: 1333px;
-    margin-left: 906px;
     position: absolute;
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
-}
-
- .container-1{
-    border-radius: 10px;
-    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
-    width: 1100px;
-    background-color: #FCEAF8;
-    height: 450px;
-    margin-top: 100px;
-    margin-left: 335px;
-    position: absolute;
- }
-
-.image{
-  margin-left: 46px;
-  margin-top: 65px;
-  border-radius: 10px;
-}
-
-img {
-    border-radius: 10px;
-}
-
-.info-card-1 {
-    margin-left: 290px;
-    margin-top: -302px;
-    opacity: 0.7;
-}
-
-.text-container-2 {
-    width: 300px;
-    margin-left: 671px;
-    margin-top: -365px;
-    font-family: tahoma;
-}
-
-.card-3{
-  width: 900px;
-  height: 700px;
-  background-color: #FCEAF8;
-  margin-top: 1333px;
-  margin-left: 5px;
-  position: absolute;
-
-  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
-
+    opacity: 0.9;
 }
 
 .bookmark-text{
   position: absolute;
-  height: 400px;
-  width: 400px;
-  margin-left: 222px;
-  margin-top: 29px;
-}
-
-.bookmark-heading{
-  font-size: 30px;
-}
-
-.bookmark-image{
-  margin-left: 187px;
-  margin-top: 0px;
-}
-
-.card-4{
-  width: 900px;
-  height: 700px;
-  background-color: #FCEAF8;
-  margin-top: 2034px;
-  margin-left: 906px;
-  position: absolute;
-
-  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
-
-}
-.airbaby-text{
-  position: absolute;
-  height: 400px;
-  width: 400px;
-  margin-left: 282px;
-
-}
-.airbaby-heading{
-  font-size: 30px;
-}
-
-.airbaby-image{
-  margin-left: 106px;
-  margin-top: 0px;
-}
-
-.card-5{
-  width: 900px;
-  height: 700px;
-  margin-top: 2034px;
-  margin-left: 5px;
-  background-size: cover;
-  background-position: center;
-  position: absolute;
-
-  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
-
-}
-
-.card-6{
-  width: 900px;
-  height: 700px;
-  background-color: #FCEAF8;
-  margin-top: 2733px;
-  margin-left: 5px;
-  position: absolute;
-
-  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
-}
-
-.card-7{
-    background-size: cover;
-    background-position: center;
-    width: 900px;
-    height: 700px;
-    margin-top: 2733px;
-    margin-left: 906px;
-    position: absolute;
-
-    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
-}
-.mistercocktail-text{
-  position: absolute;
-  height: 400px;
-  width: 400px;
-  margin-left: 220px;
-}
-.mistercocktail-heading{
-  font-size: 30px;
-}
-
-.cocktail-image{
-  margin-left: 300px;
-
-}
-.footer{
-  position: absolute;
-  color: gray;
-  width: 100%;
-  margin-top: 3431px;
-  background-size: cover;
-  background-position: center;
   height: 500px;
-
+  width: 700px;
+  margin-left: 200px;
+  margin-top: 40px;
+  background-color: #EEE5E5;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+  padding: 130px;
+}
+.bookmark-text:hover{
+  background: rgba(0,0,0,0.5);
+  color: #E5D6D5;
+  transition: all 1s;
+  text-decoration: none;
 }
 
-.ml6 {
-  position: relative;
-  font-weight: 900;
-  font-size: 3.3em;
+.bookmark-image-1{
+  position: absolute;
+  margin-left: 1000px;
+  margin-top: 40px;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
-.ml6 .text-wrapper {
-  position: relative;
-  display: inline-block;
-  padding-top: 0.2em;
-  padding-right: 0.05em;
-  padding-bottom: 0.1em;
-  overflow: hidden;
+.bookmark-image-2{
+  position: absolute;
+  margin-left: 1000px;
+  margin-top: 600px;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
-.ml6 .letter {
-  display: inline-block;
-  line-height: 1em;
+.bookmark-image-3{
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 600px;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
 }
-
-.ml16 {
-  color: #402d2d;
-  padding: 40px 0;
-  font-weight: 800;
-  font-size: 2em;
-  text-transform: uppercase;
-  letter-spacing: 0.5em;
-  overflow: hidden;
-}
-
-.ml16 .letter {
-  display: inline-block;
-  line-height: 1em;
-}
-
-// project 1
-
 .project {
-    padding: 200px 0;
-    border-bottom: 1px #ebebeb solid;
     opacity: 0;
     transform: translateY(100px);
     transition: all 1s ease-out;
@@ -312,34 +210,277 @@ img {
   transform: translateY(0);
 }
 
-.greyfont {
-  color: #c4c4c4;
-  background-color: rgba(0, 0, 0, 0.2);
-   padding: 20px;
-   font-size: 40px;
-   border-radius: 5px;
-   margin: 40px auto;
-   text-decoration: none;
- }
- .greyfont:hover{
-  background-color: rgba(0, 0, 0, 0.6);
- }
-
-.text-center{
-  margin-top: 100px;
+.project-conatiner-2{
+  background-color: #EEE5E5;
+  width: 100%;
+  height: 1500px;
+  margin-top: 2913px;
+  position: absolute;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
-.footer-heading{
-  margin-top: 100px;
+.airbaby-text{
+  position: absolute;
+  height: 500px;
+  width: 700px;
+  margin-left: 150px;
+  margin-top: 40px;
+  background-color: #E5D6D5;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+  padding: 130px;
 }
 
-.ml2 {
-  font-weight: 900;
-  font-size: 3.5em;
+.airbaby-text:hover{
+  background: rgba(0,0,0,0.5);
+  color: #E5D6D5;
+  transition: all 1s;
+  text-decoration: none;
 }
 
-.ml2 .letter {
-  display: inline-block;
-  line-height: 1em;
+.airbaby-image-1{
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 600px;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
 }
+
+.airbaby-image-2{
+  position: absolute;
+  margin-left: 929px;
+  margin-top: 501px;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.airbaby-image-3{
+  position: absolute;
+  background-color: #E5D6D5;
+  margin-left: 928px;
+  margin-top: 40px;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.aboutme-section{
+    background-color: #E5D6D5;
+    width: 100%;
+    height: 1700px;
+    margin-top: 4410px;
+    position: absolute;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+    opacity: 0.9;
+}
+// .card-2 {
+//     background-color: #E5D6D5;
+//     width: 905px;
+//     height: 700px;
+//     margin-top: 1333px;
+//     margin-left: 906px;
+//     position: absolute;
+//     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+//     // opacity: 0.9;
+// }
+
+ // .container-1{
+ //    border-radius: 10px;
+ //    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+ //    width: 1100px;
+ //    background-color: #FCEAF8;
+ //    height: 450px;
+ //    margin-top: 100px;
+ //    margin-left: 335px;
+ //    position: absolute;
+ // }
+
+// .image{
+//   margin-left: 46px;
+//   margin-top: 65px;
+//   border-radius: 10px;
+// }
+
+// img {
+//     border-radius: 10px;
+// }
+
+// .info-card-1 {
+//     margin-left: 290px;
+//     margin-top: -302px;
+//     opacity: 0.7;
+// }
+
+// .text-container-2 {
+//     width: 300px;
+//     margin-left: 671px;
+//     margin-top: -365px;
+//     font-family: tahoma;
+// }
+
+// .card-3{
+//   width: 910px;
+//   height: 700px;
+//   background-color: #EEE5E5;
+//   margin-top: 1333px;
+//   position: absolute;
+//   // opacity: 0.9;
+
+//   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+
+// }
+
+
+
+
+
+// .card-4{
+//   width: 905px;
+//   height: 700px;
+//   background-color: #EEE5E5;
+//   margin-top: 2034px;
+//   margin-left: 906px;
+//   position: absolute;
+
+
+
+// }
+// .airbaby-text{
+//   position: absolute;
+//   height: 400px;
+//   width: 400px;
+//   margin-left: 282px;
+
+// }
+// .airbaby-heading{
+//   font-size: 30px;
+// }
+
+// .airbaby-image{
+//   margin-left: 106px;
+//   margin-top: 0px;
+// }
+
+// .card-5{
+//   width: 910px;
+//   height: 700px;
+//   margin-top: 2034px;
+//   background-color: #E5D6D5;
+//   position: absolute;
+//   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+
+
+
+// }
+
+// .card-6{
+//   width: 910px;
+//   height: 700px;
+//   background-color: #EEE5E5;
+//   margin-top: 2733px;
+
+//   position: absolute;
+
+
+// }
+
+// .card-7{
+//     background-color: #E5D6D5;
+//     width: 905px;
+//     height: 700px;
+//     margin-top: 2733px;
+//     margin-left: 906px;
+//     position: absolute;
+//     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+
+
+// }
+// .mistercocktail-text{
+//   position: absolute;
+//   height: 400px;
+//   width: 400px;
+//   margin-left: 220px;
+// }
+// .mistercocktail-heading{
+//   font-size: 30px;
+// }
+
+// .cocktail-image{
+//   margin-left: 300px;
+
+// }
+// .footer{
+//   position: absolute;
+//   color: gray;
+//   width: 100%;
+//   margin-top: 3431px;
+//   background-size: cover;
+//   background-position: center;
+//   height: 500px;
+
+// }
+
+// .ml6 {
+//   position: relative;
+//   font-weight: 900;
+//   font-size: 3.3em;
+// }
+
+// .ml6 .text-wrapper {
+//   position: relative;
+//   display: inline-block;
+//   padding-top: 0.2em;
+//   padding-right: 0.05em;
+//   padding-bottom: 0.1em;
+//   overflow: hidden;
+// }
+
+// .ml6 .letter {
+//   display: inline-block;
+//   line-height: 1em;
+// }
+
+// .ml16 {
+//   color: #402d2d;
+//   padding: 40px 0;
+//   font-weight: 800;
+//   font-size: 2em;
+//   text-transform: uppercase;
+//   letter-spacing: 0.5em;
+//   overflow: hidden;
+// }
+
+// .ml16 .letter {
+//   display: inline-block;
+//   line-height: 1em;
+// }
+
+// project 1
+
+// font {
+//   color: #c4c4c4;
+//   background-color: rgba(0, 0, 0, 0.2);
+//    padding: 20px;
+//    font-size: 40px;
+//    border-radius: 5px;
+//    margin: 40px auto;
+//    text-decoration: none;
+//  }
+//  .greyfont:hover{
+//   background-color: rgba(0, 0, 0, 0.6);
+//  }
+
+// .text-center{
+//   margin-top: 100px;
+// }
+
+// .footer-heading{
+//   margin-top: 100px;
+// }
+
+// .ml2 {
+//   font-weight: 900;
+//   font-size: 3.5em;
+// }
+
+// .ml2 .letter {
+//   display: inline-block;
+//   line-height: 1em;
+// }
+
 
