@@ -268,6 +268,102 @@ p{
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
     opacity: 0.9;
 }
+.profile-text{
+  position: absolute;
+    height: 380px;
+    width: 458px;
+    margin-left: 70px;
+    margin-top: 40px;
+    background-color: #EEE5E5;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+    padding: 58px;
+}
+.profile-text:hover{
+  background: rgba(0,0,0,0.5);
+  color: #E5D6D5;
+  transition: all 1s;
+  text-decoration: none;
+}
+
+.skills-text{
+  position: absolute;
+    height: 394px;
+    width: 259px;
+    margin-left: 602px;
+    margin-top: 380px;
+    background-color: #EEE5E5;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+.skills-text:hover{
+  background: rgba(0,0,0,0.5);
+  color: #E5D6D5;
+  transition: all 1s;
+  text-decoration: none;
+}
+
+.education-text{
+  position: absolute;
+  height: 300px;
+  width: 463px;
+  margin-left: 930px;
+  margin-top: 40px;
+  background-color: #EEE5E5;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+
+.education-text:hover{
+  background: rgba(0,0,0,0.5);
+  color: #E5D6D5;
+  transition: all 1s;
+  text-decoration: none;
+}
+
+.interests-text{
+  position: absolute;
+  height: 350px;
+  width: 463px;
+  margin-left: 1200px;
+  margin-top: 400px;
+  background-color: #EEE5E5;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+}
+
+.interests-text:hover{
+  background: rgba(0,0,0,0.5);
+  color: #E5D6D5;
+  transition: all 1s;
+  text-decoration: none;
+}
+.profile-image{
+  position: absolute;
+    margin-left: 940px;
+    margin-top: 400px;
+}
+  // margin-top: 600px;
+  // box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+.swimming-image{
+  position: absolute;
+  margin-left: 583px;
+  margin-top: 30px;
+  // margin-top: 600px;
+  // box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+}
+.leWagon-image{
+  position: absolute;
+    margin-top: 460px;
+    margin-left: 70px;
+  // box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.rowing-image{
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 1440px;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+}
 // .card-2 {
 //     background-color: #E5D6D5;
 //     width: 905px;
