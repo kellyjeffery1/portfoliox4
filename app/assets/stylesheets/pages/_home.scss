@@ -66,6 +66,17 @@ h2{
   // text-align: center;
   // margin-bottom: 20px;
 }
+.bookmark-link{
+  background-color: #C4BBAF;
+  color: gray;
+  text-decoration: none;
+    }
+.lewagon-link{
+  background-color: #C4BBAF;
+  color: gray;
+  text-decoration: none;
+}
+
 .bookmark-title{
   margin: 20px;
   margin-left: 200px;
@@ -95,7 +106,6 @@ p{
 
 
 .about-btn{
-
   position: absolute;
   margin-left: 1400px;
   margin-right: 160px;
@@ -262,7 +272,7 @@ p{
 .aboutme-section{
     background-color: #E5D6D5;
     width: 100%;
-    height: 1700px;
+    height: 1400px;
     margin-top: 4410px;
     position: absolute;
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
@@ -364,6 +374,90 @@ p{
   margin-left: 1440px;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
 }
+
+.footer{
+  position: absolute;
+  color: gray;
+  width: 100%;
+  margin-top: 5550px;
+  background-color: #FCC8C2;
+  height: 500px;
+}
+.footer-text{
+  margin: 60px;
+}
+
+.greyfont {
+  color: #c4c4c4;
+  background-color: rgba(0, 0, 0, 0.2);
+   padding: 20px;
+   font-size: 40px;
+   border-radius: 5px;
+   margin: 30px;
+   text-decoration: none;
+ }
+ .greyfont:hover{
+  background-color: rgba(0, 0, 0, 0.6);
+  color: gray;
+ }
+
+ .icon-grey {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    font-size: 40px;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+.icon-grey:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+.text-center{
+  margin-top: 100px;
+}
+
+.footer-heading{
+  margin-top: 50px;
+}
+
+.ml2 {
+  font-weight: 800;
+  font-size: 3.5em;
+}
+
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+.scroll{
+  position: absolute;
+  margin-left: 770px;
+  margin-top: -20px;
+  padding: 15px 17px;
+  background: gray;
+  color: white;
+  font-size: 24px;
+  border: 2px solid gray;
+  font-family: 'Bree Serif', serif;
+  text-transform: uppercase;
+  border-radius: 80px;
+  z-index: 7;
+  background: rgba(0,0,0,0.3);
+
+}
+.scroll:hover{
+  background: rgba(0,0,0,0.5);
+  color: white;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+.container-1{
+  margin-left: 678px;
+  margin-top: 190px;
+}
+
 // .card-2 {
 //     background-color: #E5D6D5;
 //     width: 905px;
@@ -500,16 +594,6 @@ p{
 //   margin-left: 300px;
 
 // }
-// .footer{
-//   position: absolute;
-//   color: gray;
-//   width: 100%;
-//   margin-top: 3431px;
-//   background-size: cover;
-//   background-position: center;
-//   height: 500px;
-
-// }
 
 // .ml6 {
 //   position: relative;
@@ -547,36 +631,5 @@ p{
 // }
 
 // project 1
-
-// font {
-//   color: #c4c4c4;
-//   background-color: rgba(0, 0, 0, 0.2);
-//    padding: 20px;
-//    font-size: 40px;
-//    border-radius: 5px;
-//    margin: 40px auto;
-//    text-decoration: none;
-//  }
-//  .greyfont:hover{
-//   background-color: rgba(0, 0, 0, 0.6);
-//  }
-
-// .text-center{
-//   margin-top: 100px;
-// }
-
-// .footer-heading{
-//   margin-top: 100px;
-// }
-
-// .ml2 {
-//   font-weight: 900;
-//   font-size: 3.5em;
-// }
-
-// .ml2 .letter {
-//   display: inline-block;
-//   line-height: 1em;
-// }
 
 

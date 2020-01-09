@@ -21,26 +21,26 @@
 //     delay: 1000
 //   });
 
-//   // Wrap every letter in a span
-// var textWrapper = document.querySelector('.ml2');
-// textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+  // Wrap every letter in a span
+var textWrapper = document.querySelector('.ml2');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-// anime.timeline({loop: true})
-//   .add({
-//     targets: '.ml2 .letter',
-//     scale: [4,1],
-//     opacity: [0,1],
-//     translateZ: 0,
-//     easing: "easeOutExpo",
-//     duration: 950,
-//     delay: (el, i) => 70*i
-//   }).add({
-//     targets: '.ml2',
-//     opacity: 0,
-//     duration: 1000,
-//     easing: "easeOutExpo",
-//     delay: 1000
-//   });
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml2 .letter',
+    scale: [4,1],
+    opacity: [0,1],
+    translateZ: 0,
+    easing: "easeOutExpo",
+    duration: 950,
+    delay: (el, i) => 70*i
+  }).add({
+    targets: '.ml2',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
   // main heading
 
   // all h2
@@ -185,23 +185,65 @@ anime.timeline({loop: true})
     delay: 500
   });
 
+// $(document).ready(function(){
+//   $(".").on('click', function(event) {
+//     // Make sure this.hash has a value before overriding default behavior
+//     if (this.hash !== "") {
+//       // Prevent default anchor click behavior
+//       event.preventDefault();
+//       // Store hash
+//       var hash = this.hash;
+//       // Using jQuery's animate() method to add smooth page scroll
+//       $('html, body').animate({
+//         scrollTop: $(hash).offset().top
+//       }, 1000, function(){
+//         // Add hash (#) to URL when done scrolling (default click behavior)
+//         window.location.hash = hash;
+//       });
+//     }
+//   });
+// });
 
-
-
-$('.click').click(function(e){
-   // prevent default action
-   e.preventDefault();
-
-   // get id of target div (placed in href attribute of anchor element)
-   // and pass it to the scrollToElement function
-    // also, use 2000 as an argument for the scroll speed (2 seconds, 2000 milliseconds)
-   scrollToElement( $(this).attr('href'), 2000 );
+$(document).ready(function() {
+$(".down").click(function() {
+     $('html, body').animate({
+         scrollTop: $(".up").offset().top
+     }, 1500);
+ });
 });
 
-var scrollToElement = function(el, ms){
-    var speed = (ms) ? ms : 600;
-    $('html,body').animate({
-        scrollTop: $(el).offset().top
-    }, speed);
-}
+$(document).ready(function() {
+$(".up").click(function() {
+     $('html, body').animate({
+         scrollTop: $(".down").offset().top
+     }, 1000);
+ });
+});
+// -------------------------------------------
+$(document).ready(function() {
+$(".down2").click(function() {
+     $('html, body').animate({
+         scrollTop: $(".up2").offset().top
+     }, 1500);
+ });
+});
 
+$(document).ready(function() {
+$(".up2").click(function() {
+     $('html, body').animate({
+         scrollTop: $(".down2").offset().top
+     }, 1000);
+ });
+});
+
+// $('.scrollTo').click(function() {
+//   var getElem = $(this).attr('section1');
+//   var targetDistance = 20;
+//   if ($(getElem).length) {
+//     var getOffset = $(getElem).offset().top;
+//     $('html,body').animate({
+//       scrollTop: getOffset - targetDistance
+//     }, 500);
+//   }
+//   return false;
+// });
