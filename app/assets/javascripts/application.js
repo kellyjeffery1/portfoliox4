@@ -20,7 +20,7 @@ anime.timeline({loop: true})
     translateZ: 0,
     easing: "easeOutExpo",
     duration: 950,
-    delay: 70
+    delay: (el, i) => 70*i
   }).add({
     targets: '.ml2',
     opacity: 0,
@@ -28,7 +28,6 @@ anime.timeline({loop: true})
     easing: "easeOutExpo",
     delay: 1000
   });
-
 
 
 
@@ -63,12 +62,7 @@ $(document).ready(function(){
       triggerHook: 0.9
     })
     .setClassToggle(this, 'fade-in') // add class to project01
-    .addIndicators({
-      name: 'fade scene',
-      colorTrigger: 'black',
-      colorStart: '#75C695',
-      colorEnd: 'pink'
-    }) // this requires a plugin
+
     .addTo(controller);
 
   });
