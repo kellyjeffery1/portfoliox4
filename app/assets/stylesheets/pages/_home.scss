@@ -7,9 +7,9 @@ body {
 
 .ml4 {
   position: relative;
-  font-weight: 500;
-  font-size: 3em;
-  margin-left: 40px
+  font-weight: 700;
+  font-size: 4em;
+  margin-left: 60px
 }
 .ml4 .letters {
   position: absolute;
@@ -61,7 +61,7 @@ h1{
 }
 
 h2{
-  font-size: 5vh;
+  font-size: 3vh;
   font-weight: 700;
   letter-spacing: 1vh;
   // text-align: center;
@@ -85,7 +85,7 @@ h2{
 
 .bookmark-title{
   margin: 20px;
-  margin-left: 145px;
+  margin-left: 350px;
   margin-top: 100px;
   font-family: 'Bree Serif', serif;
   font-weight: 700;
@@ -94,7 +94,7 @@ h2{
 
 .airbaby-title{
   margin: 20px;
-  margin-left: 200px;
+  margin-left: 350px;
   margin-top: 100px;
   font-family: 'Bree Serif', serif;
   font-weight: 700;
@@ -113,7 +113,7 @@ p{
 
 .about-btn{
   position: absolute;
-  margin-left: 1556px;
+  margin-left: 1700px;
   margin-right: 160px;
   margin-top: 10px;
   padding: 16px 17px;
@@ -136,7 +136,7 @@ p{
 
 .contact-btn{
   position: absolute;
-  margin-left: 1700px;
+  margin-left: 1900px;
   margin-top: 10px;
   padding: 15px 17px;
   background: none;
@@ -160,13 +160,13 @@ p{
   height: 1px;
   width: 1400px;
   background: linear-gradient(130.62deg, #717070 9.56%, #EEE5E5 94.35%);
-  margin-left: 145px;
+  margin-left: 350px;
 }
 .line-seperator-airbaby{
   height: 1px;
   width: 1400px;
   background: linear-gradient(130.62deg, #717070 9.56%, #EEE5E5 94.35%);
-  margin-left: 200px;
+  margin-left: 350px;
 }
 
 .project-container-1{
@@ -288,7 +288,7 @@ p{
   position: absolute;
     height: 380px;
     width: 458px;
-    margin-left: 100px;
+    margin-left: 180px;
     margin-top: 40px;
     background-color: #EEE5E5;
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
@@ -322,7 +322,7 @@ p{
   position: absolute;
   height: 320px;
   width: 463px;
-  margin-left: 1000px;
+  margin-left: 1070px;
   margin-top: 40px;
   background-color: #EEE5E5;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
@@ -355,14 +355,14 @@ p{
 }
 .profile-image{
   position: absolute;
-  margin-left: 1200px;
+  margin-left: 1120px;
   margin-top: 400px;
 }
   // margin-top: 600px;
   // box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
 .swimming-image{
   position: absolute;
-  margin-left: 700px;
+  margin-left: 710px;
   margin-top: 30px;
   // margin-top: 600px;
   // box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
@@ -370,7 +370,7 @@ p{
 .leWagon-image{
   position: absolute;
   margin-top: 460px;
-  margin-left: 140px;
+  margin-left: 190px;
   // box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
@@ -439,7 +439,7 @@ p{
 }
 .scroll{
   position: absolute;
-  margin-left: 900px;
+  margin-left: 1100px;
   margin-top: -20px;
   padding: 15px 17px;
   background: gray;
