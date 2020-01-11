@@ -14,6 +14,9 @@ gem 'sassc-rails'
 gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
+# gem 'bootstrap-sass'
+# gem 'font-awesome-sass'
+# gem 'autoprefixer-rails'
 
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
@@ -30,3 +33,5 @@ group :development, :test do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'dotenv-rails'
 end
+
+
