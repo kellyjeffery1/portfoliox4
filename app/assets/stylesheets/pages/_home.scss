@@ -463,34 +463,34 @@ p{
   margin-top: 190px;
 }
 
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-  #intro {
-    width: 700px;
-    background-image: url(IMG_1112.jpeg);
-  }
-  .project-container-1{
-    width: 700px;
-  }
-}
-@media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
-  #intro {
-    width: 500px;
-  }
-  .project-container-1{
-    width: 500px;
-  }
-}
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  #intro {
-    width: 300px;
-  }
-  .project-container-1{
-    width: 300px;
-  }
-}
+// @media (max-width: 960px) {
+//   /* For a screen < 960px, this CSS will be read */
+//   #intro {
+//     width: 700px;
+//     background-image: url(IMG_1112.jpeg);
+//   }
+//   .project-container-1{
+//     width: 700px;
+//   }
+// }
+// @media (max-width: 720px) {
+//   /* For a screen < 720px, this CSS will be read */
+//   #intro {
+//     width: 500px;
+//   }
+//   .project-container-1{
+//     width: 500px;
+//   }
+// }
+// @media (max-width: 540px) {
+//   /* For a screen < 540px, this CSS will be read */
+//   #intro {
+//     width: 300px;
+//   }
+//   .project-container-1{
+//     width: 300px;
+//   }
+// }
 // .card-2 {
 //     background-color: #E5D6D5;
 //     width: 905px;
