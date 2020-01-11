@@ -1,3 +1,16 @@
+@media all and (max-width: 430px) and (min-width: 360px) {
+  /* put your mobile css in here */
+  #intro{
+  position: absolute;
+  color: gray;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-image: url(IMG_1111.jpg);
+}
+}
+
 body {
   font-family: 'Bree Serif', serif;
   background: white;
@@ -26,7 +39,7 @@ body {
   background-size: cover;
   background-position: center;
   height: 100vh;
-  background-image: url(IMG_1112.jpeg);
+  background-image: url(IMG_1111.jpg);
 
 }
 
