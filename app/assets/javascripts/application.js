@@ -41,7 +41,7 @@ $(document).ready(function(){
   var pinIntroScene = new ScrollMagic.Scene({
     triggerElement: '#intro',
     triggerHook: 0,
-    duration: '60%'
+    duration: '80%'
   })
   .setPin('#intro')
   .addTo(controller);
