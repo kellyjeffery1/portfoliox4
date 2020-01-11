@@ -27,7 +27,7 @@ body {
   background-size: cover;
   background-position: center;
   height: 100vh;
-  background-image: url(IMG_1112.jpeg);
+  background-image: url(assests/IMG_1112.jpeg);
 
 }
 
@@ -113,7 +113,7 @@ p{
 
 .about-btn{
   position: absolute;
-  margin-left: 1464px;
+  margin-left: 1556px;
   margin-right: 160px;
   margin-top: 10px;
   padding: 16px 17px;
@@ -136,7 +136,7 @@ p{
 
 .contact-btn{
   position: absolute;
-  margin-left: 1600px;
+  margin-left: 1700px;
   margin-top: 10px;
   padding: 15px 17px;
   background: none;
@@ -183,7 +183,7 @@ p{
   position: absolute;
   height: 500px;
   width: 700px;
-  margin-left: 145px;
+  margin-left: 165px;
   margin-top: 40px;
   background-color: #EEE5E5;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
@@ -198,21 +198,21 @@ p{
 
 .bookmark-image-1{
   position: absolute;
-  margin-left: 931px;
+  margin-left: 950px;
   margin-top: 40px;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .bookmark-image-2{
   position: absolute;
-  margin-left: 931px;
+  margin-left: 950px;
   margin-top: 600px;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .bookmark-image-3{
   position: absolute;
-  margin-left: 145px;
+  margin-left: 165px;
   margin-top: 600px;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
 }
@@ -228,18 +228,18 @@ p{
 
 .project-conatiner-2{
   background-color: #EEE5E5;
+  position: absolute;
   width: 100%;
   height: 1500px;
   margin-top: 2913px;
-  position: absolute;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .airbaby-text{
-  position: absolute;
+  position: relative;
   height: 500px;
   width: 700px;
-  margin-left: 145px;
+  margin-left: 165px;
   margin-top: 40px;
   background-color: #E5D6D5;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
@@ -255,14 +255,14 @@ p{
 
 .airbaby-image-1{
   position: absolute;
-  margin-left: 145px;
+  margin-left: 165px;
   margin-top: 600px;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .airbaby-image-2{
   position: absolute;
-  margin-left: 931px;
+  margin-left: 950px;
   margin-top: 501px;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
 }
@@ -270,7 +270,7 @@ p{
 .airbaby-image-3{
   position: absolute;
   background-color: #E5D6D5;
-  margin-left: 931px;
+  margin-left: 950px;
   margin-top: 40px;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
 }
