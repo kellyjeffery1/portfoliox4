@@ -9,6 +9,7 @@
 
 
   // Wrap every letter in a span
+// Wrap every letter in a span
 var textWrapper = document.querySelector('.ml2');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
@@ -20,7 +21,7 @@ anime.timeline({loop: true})
     translateZ: 0,
     easing: "easeOutExpo",
     duration: 950,
-    delay: 70
+    delay: (el, i) => 70*i
   }).add({
     targets: '.ml2',
     opacity: 0,
@@ -41,7 +42,7 @@ $(document).ready(function(){
   var pinIntroScene = new ScrollMagic.Scene({
     triggerElement: '#intro',
     triggerHook: 0,
-    duration: '60%'
+    duration: '85%'
   })
   .setPin('#intro')
   .addTo(controller);

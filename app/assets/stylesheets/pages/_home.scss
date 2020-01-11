@@ -26,7 +26,7 @@ body {
   background-size: cover;
   background-position: center;
   height: 100vh;
-  background-image: url(/assets/IMG_1112.jpeg);
+  background-image: url(IMG_1112.jpeg);
 
 }
 
@@ -84,7 +84,7 @@ h2{
 
 .bookmark-title{
   margin: 20px;
-  margin-left: 200px;
+  margin-left: 145px;
   margin-top: 100px;
   font-family: 'Bree Serif', serif;
   font-weight: 700;
@@ -159,7 +159,7 @@ p{
   height: 1px;
   width: 1400px;
   background: linear-gradient(130.62deg, #717070 9.56%, #EEE5E5 94.35%);
-  margin-left: 200px;
+  margin-left: 145px;
 }
 .line-seperator-airbaby{
   height: 1px;
@@ -182,7 +182,7 @@ p{
   position: absolute;
   height: 500px;
   width: 700px;
-  margin-left: 200px;
+  margin-left: 145px;
   margin-top: 40px;
   background-color: #EEE5E5;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
@@ -197,21 +197,21 @@ p{
 
 .bookmark-image-1{
   position: absolute;
-  margin-left: 1000px;
+  margin-left: 931px;
   margin-top: 40px;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .bookmark-image-2{
   position: absolute;
-  margin-left: 1000px;
+  margin-left: 931px;
   margin-top: 600px;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .bookmark-image-3{
   position: absolute;
-  margin-left: 200px;
+  margin-left: 145px;
   margin-top: 600px;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
 }
@@ -238,7 +238,7 @@ p{
   position: absolute;
   height: 500px;
   width: 700px;
-  margin-left: 150px;
+  margin-left: 145px;
   margin-top: 40px;
   background-color: #E5D6D5;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
@@ -254,14 +254,14 @@ p{
 
 .airbaby-image-1{
   position: absolute;
-  margin-left: 150px;
+  margin-left: 145px;
   margin-top: 600px;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .airbaby-image-2{
   position: absolute;
-  margin-left: 929px;
+  margin-left: 931px;
   margin-top: 501px;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
 }
@@ -269,7 +269,7 @@ p{
 .airbaby-image-3{
   position: absolute;
   background-color: #E5D6D5;
-  margin-left: 928px;
+  margin-left: 931px;
   margin-top: 40px;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
 }
@@ -640,4 +640,46 @@ p{
 
 // project 1
 
+// @media(max-width:500px) {
+//   .intro {
+//     background-image: url(IMG_1112.jpeg);
+//   }
+// }
+
+// @media(max-width:767px) {
+//   .top_left_card {
+//     border-top-right-radius: 6px;
+//   }
+//   .top_middle_card {
+//     border-top-right-radius: 6px;
+//   }
+//   .bottom_right_card {
+//     border-bottom-left-radius: 6px;
+//   }
+//   .bottom_left_card {
+//     border-bottom-left-radius: 0;
+//   }
+//   .darkgrey_background {
+//     background-image: none;
+//     background-color: #202020;
+//   }
+// }
+
+// @media(max-width:992px) {
+//     .top_middle_card {
+//     border-top-right-radius: 0;
+//   }
+//     .top_right_card {
+//     border-top-right-radius: 0;
+//   }
+// }
+
+// @media (max-width:992px) and (min-width:767px) {
+//   .top_middle_card {
+//     border-top-right-radius: 6px;
+//   }
+//   .bottom_middle_card {
+//     border-bottom-left-radius: 6px;
+//   }
+// }​
 
