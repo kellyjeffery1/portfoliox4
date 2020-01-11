@@ -63,7 +63,6 @@ $(document).ready(function(){
       triggerHook: 0.9
     })
     .setClassToggle(this, 'fade-in') // add class to project01
-
     .addTo(controller);
 
   });
