@@ -23,7 +23,7 @@ body {
 #intro{
   position: absolute;
   color: gray;
-  width: 90%;
+  width:  100%;
   height: 100vh;
   background-image: url(https://res.cloudinary.com/du5igpwuh/image/upload/v1578761537/portfolio/UNADJUSTEDNONRAW_thumb_c4_ollggg.jpg);
   background-size: cover;
@@ -33,8 +33,8 @@ body {
 
 h1{
 
-  font-weight: 100;
-  font-size: 20px;
+  font-weight: 200;
+  font-size: 30px;
   font-family: 'Bree Serif', serif;
   // text-align: center;
   // margin-top: 200px;
@@ -61,7 +61,7 @@ h1{
 }
 
 h2{
-  font-size: 3vh;
+  font-size: 5vh;
   font-weight: 700;
   letter-spacing: 1vh;
   // text-align: center;
@@ -183,7 +183,7 @@ p{
   position: absolute;
   height: 500px;
   width: 700px;
-  margin-left: 165px;
+  margin-left: 350px;
   margin-top: 40px;
   background-color: #EEE5E5;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
@@ -198,21 +198,21 @@ p{
 
 .bookmark-image-1{
   position: absolute;
-  margin-left: 950px;
+  margin-left: 1200px;
   margin-top: 40px;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .bookmark-image-2{
   position: absolute;
-  margin-left: 950px;
+  margin-left: 1200px;
   margin-top: 600px;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .bookmark-image-3{
   position: absolute;
-  margin-left: 165px;
+  margin-left: 350px;
   margin-top: 600px;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
 }
@@ -239,7 +239,7 @@ p{
   position: relative;
   height: 500px;
   width: 700px;
-  margin-left: 165px;
+  margin-left: 350px;
   margin-top: 40px;
   background-color: #E5D6D5;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
@@ -255,14 +255,14 @@ p{
 
 .airbaby-image-1{
   position: absolute;
-  margin-left: 165px;
+  margin-left: 350px;
   margin-top: 600px;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .airbaby-image-2{
   position: absolute;
-  margin-left: 950px;
+  margin-left: 1200px;
   margin-top: 501px;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
 }
@@ -270,7 +270,7 @@ p{
 .airbaby-image-3{
   position: absolute;
   background-color: #E5D6D5;
-  margin-left: 950px;
+  margin-left: 1200px;
   margin-top: 40px;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
 }
@@ -288,7 +288,7 @@ p{
   position: absolute;
     height: 380px;
     width: 458px;
-    margin-left: 50px;
+    margin-left: 100px;
     margin-top: 40px;
     background-color: #EEE5E5;
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
@@ -305,7 +305,7 @@ p{
   position: absolute;
     height: 394px;
     width: 259px;
-    margin-left: 602px;
+    margin-left: 800px;
     margin-top: 380px;
     background-color: #EEE5E5;
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
@@ -322,7 +322,7 @@ p{
   position: absolute;
   height: 320px;
   width: 463px;
-  margin-left: 895px;
+  margin-left: 1000px;
   margin-top: 40px;
   background-color: #EEE5E5;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
@@ -340,7 +340,7 @@ p{
   position: absolute;
   height: 350px;
   width: 463px;
-  margin-left: 1200px;
+  margin-left: 1400px;
   margin-top: 400px;
   background-color: #EEE5E5;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
@@ -355,14 +355,14 @@ p{
 }
 .profile-image{
   position: absolute;
-  margin-left: 940px;
+  margin-left: 1200px;
   margin-top: 400px;
 }
   // margin-top: 600px;
   // box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
 .swimming-image{
   position: absolute;
-  margin-left: 583px;
+  margin-left: 700px;
   margin-top: 30px;
   // margin-top: 600px;
   // box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
@@ -370,14 +370,14 @@ p{
 .leWagon-image{
   position: absolute;
   margin-top: 460px;
-  margin-left: 70px;
+  margin-left: 140px;
   // box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .rowing-image{
   position: absolute;
   margin-top: 70px;
-  margin-left: 1390px;
+  margin-left: 1600px;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
@@ -439,7 +439,7 @@ p{
 }
 .scroll{
   position: absolute;
-  margin-left: 770px;
+  margin-left: 900px;
   margin-top: -20px;
   padding: 15px 17px;
   background: gray;
