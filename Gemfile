@@ -17,7 +17,7 @@ gem 'webpacker'
 # gem 'bootstrap-sass'
 # gem 'font-awesome-sass'
 # gem 'autoprefixer-rails'
-
+gem 'dotenv-rails', groups: [:development, :test]
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
 
