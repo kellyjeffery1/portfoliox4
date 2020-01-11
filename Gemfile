@@ -20,6 +20,7 @@ gem 'webpacker'
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
+gem 'cloudinary', '~> 1.12.0'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
