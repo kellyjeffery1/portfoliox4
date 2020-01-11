@@ -9,7 +9,6 @@
 
 
   // Wrap every letter in a span
-// Wrap every letter in a span
 var textWrapper = document.querySelector('.ml2');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
@@ -21,7 +20,7 @@ anime.timeline({loop: true})
     translateZ: 0,
     easing: "easeOutExpo",
     duration: 950,
-    delay: (el, i) => 70*i
+    delay: 70
   }).add({
     targets: '.ml2',
     opacity: 0,
@@ -42,7 +41,7 @@ $(document).ready(function(){
   var pinIntroScene = new ScrollMagic.Scene({
     triggerElement: '#intro',
     triggerHook: 0,
-    duration: '85%'
+    duration: '60%'
   })
   .setPin('#intro')
   .addTo(controller);
@@ -64,12 +63,12 @@ $(document).ready(function(){
       triggerHook: 0.9
     })
     .setClassToggle(this, 'fade-in') // add class to project01
-    // .addIndicators({
-    //   name: 'fade scene',
-    //   colorTrigger: 'black',
-    //   colorStart: '#75C695',
-    //   colorEnd: 'pink'
-    // }) // this requires a plugin
+    .addIndicators({
+      name: 'fade scene',
+      colorTrigger: 'black',
+      colorStart: '#75C695',
+      colorEnd: 'pink'
+    }) // this requires a plugin
     .addTo(controller);
 
   });

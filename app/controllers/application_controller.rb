@@ -1,3 +1,2 @@
-class ApplicationController < ActionController::Bas
-  # protect_from_forgery with: :exception
+class ApplicationController < ActionController::Basz
 end
