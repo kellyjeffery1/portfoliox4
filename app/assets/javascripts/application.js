@@ -63,12 +63,12 @@ $(document).ready(function(){
       triggerHook: 0.9
     })
     .setClassToggle(this, 'fade-in') // add class to project01
-    .addIndicators({
-      name: 'fade scene',
-      colorTrigger: 'black',
-      colorStart: '#75C695',
-      colorEnd: 'pink'
-    }) // this requires a plugin
+    // .addIndicators({
+    //   name: 'fade scene',
+    //   colorTrigger: 'black',
+    //   colorStart: '#75C695',
+    //   colorEnd: 'pink'
+    // }) // this requires a plugin
     .addTo(controller);
 
   });
