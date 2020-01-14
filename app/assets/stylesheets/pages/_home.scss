@@ -23,7 +23,7 @@ body {
 #intro{
   position: absolute;
   color: gray;
-  width:  100%;
+  width:  auto;
   height: 100vh;
   background-image: url(https://res.cloudinary.com/du5igpwuh/image/upload/v1578761537/portfolio/UNADJUSTEDNONRAW_thumb_c4_ollggg.jpg);
   background-size: cover;
@@ -464,7 +464,11 @@ p{
   margin-top: 190px;
 }
 
-// @media (min-width: 1200px) { ... }
+ @media (min-width: 1200px) {
+  .project-container-1{
+
+  }
+ }
 
 // /* Portrait tablet to landscape and desktop */
 // @media (min-width: 768px) and (max-width: 979px) { ... }
